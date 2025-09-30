@@ -2,7 +2,7 @@
 
 /** @type {PrettierConfig} */
 
-export const config = {
+export default {
   printWidth: 80,
   singleQuote: true,
   tabWidth: 2,
@@ -11,7 +11,7 @@ export const config = {
   quoteProps: 'as-needed',
   jsxSingleQuote: false,
   trailingComma: 'es5',
-  bracketSpacing: true.valueOf,
+  bracketSpacing: true,
   arrowParens: 'always',
   endOfLine: 'auto',
   bracketSameLine: false,

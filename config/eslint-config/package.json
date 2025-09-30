@@ -1,7 +1,6 @@
 {
-  "name": "@sass/eslint-config",
+  "name": "@saas/eslint-config",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
   "exports": {
     "./base": "./base.js",
@@ -11,7 +10,7 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "@sass/prettier": "workspace:*"
+    "@saas/prettier": "workspace:*"
   },
-  "prettier": "@sass/prettier"
+  "prettier": "@saas/prettier"
 }

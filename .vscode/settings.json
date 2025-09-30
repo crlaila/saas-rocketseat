@@ -1,7 +1,13 @@
 {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "prettier.requireConfig": true,
   "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ]
+    "packages/*",
+    "apps/*"
+  ],
+  "typescript.preferences.importModuleSpecifier": "relative"
 }
